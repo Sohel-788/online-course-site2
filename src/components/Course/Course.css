@@ -1,0 +1,21 @@
+.course-container{
+    margin-top: 20px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+    transition: .4s all ease-in-out;
+}
+.course-container:hover{
+    box-shadow: 3px 3px 5px gray;
+}
+.course-img{
+    margin-right: 20px;
+}
+.course-img img{
+    width: 250px;
+}
+.course-detail h2{
+    color: #00f;
+}
+.btn-lg{
+    width: 200px;
+}

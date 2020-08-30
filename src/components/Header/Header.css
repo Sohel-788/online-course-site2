@@ -1,0 +1,35 @@
+.header{
+    background:gray;
+}
+.header .logo{
+    margin-right: 150px;
+}
+.header img{
+    height: 80px;
+    display: flex;
+    cursor: pointer;
+}
+.header nav{
+    line-height: 40px;
+    background:gray;
+    display: flex;
+}
+.header nav a{
+    color: white;
+    font-size: 20px;
+    text-decoration:none;
+    margin-right: 20px;
+    padding: 20px 0;
+   transition: .4s all ease-in-out;
+}
+.header nav li:hover a, .header nav li a.active{
+    background-color: #000;
+}
+/* //Bootstrap class style editing */
+.header .navbar{
+    padding:0;
+}
+.header .navbar-brand{
+    padding-top: 0;
+    padding-bottom: 0;
+}
